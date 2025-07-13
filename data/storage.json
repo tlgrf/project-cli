@@ -1,0 +1,43 @@
+{
+  "users": {
+    "Alex": {
+      "email": "alex@example.com",
+      "projects": [
+        {
+          "title": "CLI Tool",
+          "description": "CLI based project manager",
+          "due": "2025-08-01",
+          "tasks": [
+            {
+              "title": "Design CLI structure",
+              "status": "Complete",
+              "assigned_to": "Alex"
+            },
+            {
+              "title": "Implement rich output",
+              "status": "Incomplete",
+              "assigned_to": "Alex"
+            }
+          ]
+        }
+      ]
+    },
+    "Jordan": {
+      "email": "jordan@example.com",
+      "projects": [
+        {
+          "title": "API Development",
+          "description": "Building APIs",
+          "due": "2025-09-01",
+          "tasks": [
+            {
+              "title": "Set up endpoints",
+              "status": "Incomplete",
+              "assigned_to": "Jordan"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
